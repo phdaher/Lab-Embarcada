@@ -276,7 +276,7 @@ void task_lcd(void){
 	xQueueTouch = xQueueCreate( 10, sizeof( touchData ) );
 	configure_lcd();
 	draw_screen();
-	font_draw_text(&digital52, "DEMO - BUT", 0, 0, 1);
+	font_draw_text(&digital52, "LAB - PEDRO", 0, 0, 1);
 
 	t_but but0 = {.width = 120, .height = 75,
 		.colorOn = COLOR_RED, .colorOff = COLOR_BLACK,

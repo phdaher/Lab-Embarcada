@@ -10210,7 +10210,7 @@ void task_lcd(void){
 	draw_screen();
   404062:	4b4a      	ldr	r3, [pc, #296]	; (40418c <task_lcd+0x154>)
   404064:	4798      	blx	r3
-	font_draw_text(&digital52, "DEMO - BUT", 0, 0, 1);
+	font_draw_text(&digital52, "LAB - PEDRO", 0, 0, 1);
   404066:	2301      	movs	r3, #1
   404068:	9300      	str	r3, [sp, #0]
   40406a:	2300      	movs	r3, #0
@@ -31939,8 +31939,8 @@ static inline void stdio_serial_init(volatile void *usart, const usart_serial_op
   446b88:	ffffffff ffffffff ffffffff ffffffff     ................
   446b98:	0074786d 6c696146 74206465 7263206f     mxt.Failed to cr
   446ba8:	65746165 73657420 656c2074 61742064     eate test led ta
-  446bb8:	0a0d6b73 00000000 0064636c 4f4d4544     sk......lcd.DEMO
-  446bc8:	42202d20 00005455 0a206425 00000000      - BUT..%d .....
+  446bb8:	0a0d6b73 00000000 0064636c 2042414c     sk......lcd.LAB 
+  446bc8:	4550202d 004f5244 0a206425 00000000     - PEDRO.%d .....
   446bd8:	64253a78 253a7920 00000a64 63617473     x:%d y:%d...stac
   446be8:	766f206b 6c667265 2520776f 73252078     k overflow %x %s
   446bf8:	00000a0d                                ....
